@@ -8,13 +8,6 @@ import './assets/main.css'
 
 createApp(App).mount('#app')
 
-// import router from "./router";
+import router from "./router";
 
-// createApp(App).use(router).mount("#app");
-
-// import '@/assets/css/main.css'
-// Vue.config.productionTip = false
-// new Vue({
-//   router,
-//   render: h => h(App)
-// }).$mount('#app')
+createApp(App).use(router).mount("#app");
